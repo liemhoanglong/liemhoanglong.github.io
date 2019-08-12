@@ -45,9 +45,9 @@ nav.navbar.navbar-light.bg-faded {
 	a.nav-link {
 		line-height: 27px;
 		display: inline!important;
-	}
+	
+	a.navbar-brand {}
 
-	a.navbar-brand {
 		display: block;
 		text-align: center;
 		width: 100%;
