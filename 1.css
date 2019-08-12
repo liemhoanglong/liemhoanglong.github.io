@@ -1,31 +1,60 @@
 *{margin: 0; padding: 0;}
 
+.tt h2 {
+	text-transform: uppercase;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 23px;
+}
+
+.tt p {
+	color: #000000;
+	font-size: 16px;
+	line-height: 20px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 34px;
+}
+
+.tt img {
+	border-radius: 50%;
+	margin: 50px;
+}
+
+a.nuthire.btn.btn-primary {
+	width: 180px;
+	background: #000000;
+	border: none;
+}
+
+.tt {z-index: 2;position: relative;padding-top: 100px;}
+
 .khoithongtin1:before {
-    content: "Make up";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;/*chia nua mang hinh*/
-    height: 100%;
-    background: #ffb00e66;
+	content: "Make up";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;/*chia nua mang hinh*/
+	height: 100%;
+	background: #ffb00e66;
+	z-index: 1;
 }
 
 a.navbar-brand {
-    padding: 0;
+	padding: 0;
 }
 
-
-
 .khoithongtin1 {
-    height: 100%;
-    width: 100%;
-    background: #ffb00ec2;
-    position: relative;
+	height: 100%;
+	width: 100%;
+	background: #ffb00ec2;
+	position: relative;
+	z-index: 1;
 }
 
 body, html {
-    height: 100%;
-    width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
@@ -73,9 +102,7 @@ nav.navbar.navbar-light.bg-faded {
 	a.nav-link {
 		line-height: 27px;
 		display: inline!important;
-	
-	a.navbar-brand {}
-
+		a.navbar-brand {}
 		display: block;
 		text-align: center;
 		width: 100%;
