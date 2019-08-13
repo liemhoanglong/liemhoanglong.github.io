@@ -4,16 +4,16 @@
 	text-transform: uppercase;
 	font-size: 40px;
 	color: white;
-	margin-bottom: 23px;
+	margin-bottom: 22px;
 }
 
 .tt p {
 	color: #000000;
 	font-size: 16px;
 	line-height: 20px;
-	width: 50%;
+	width: 100%;
 	margin: auto;
-	margin-bottom: 34px;
+	margin-bottom: 32px;
 }
 
 .tt img {
@@ -84,14 +84,29 @@ nav.navbar.navbar-light.bg-faded {
 @media (max-width: 576px) {
 	*{}
 
+.tt img {
+    margin-top: 76px;
+    width: 150px;
+    margin-bottom: 22px;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
 	li.nav-item {
 		float: none!important;
 		display: inline;
 	}
 
 	ul.nav.navbar-nav.float-xs-right {
-		float: none;
 		text-align: center;
+		background: none;
+		width: 100%;
+		margin: 0;
+		padding: 5px 7px;
 	}
 
 	li.nav-item {
@@ -100,11 +115,10 @@ nav.navbar.navbar-light.bg-faded {
 	}
 
 	a.nav-link {
-		line-height: 27px;
+		line-height: 28px;
 		display: inline!important;
-		a.navbar-brand {}
+		a.navbar-brand {;}
 		display: block;
 		text-align: center;
-		width: 100%;
 	}
 }
