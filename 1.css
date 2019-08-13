@@ -1,5 +1,46 @@
 *{margin: 0; padding: 0;}
 
+span.mo_ta_qt {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+h3.tieudecap3 {
+    font-weight: bold;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #e97636;
+}
+
+span.in_dam {
+    font-weight: bold;
+    font-family: segoe iu;
+    text-transform: none;
+    color: #373a3cc7;
+}
+
+h2.tieudecap2 {
+    font-weight: bold;
+    font-family: segoe ui light;
+    font-size: px;
+    margin-bottom: 30px;
+}
+
+.tieudeto {
+    margin-top: 55px;
+    padding-bottom: 50px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    background: url(images/line.png) no-repeat center bottom;
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+
 .tt h2 {
 	text-transform: uppercase;
 	font-size: 40px;
