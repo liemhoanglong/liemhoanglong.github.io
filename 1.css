@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0;}
 
 ul.nav.navbar-nav.float-xs-right {
-    background: #e3eaea;
+    background: #e7e8e9;
     text-align: center;
 }
 
@@ -107,7 +107,7 @@ body, html {
 }
 
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
-	background: #e3eaea;
+	background: #e7e8e9;
 }
 
 li.nav-item {
