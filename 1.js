@@ -6,12 +6,12 @@
 
  	vitricuaskills = $('#khoi_skills').offset().top;
  	$(".skills").click(function(){
- 		$('body,html').animate({scrollTop:vitricuaskills}, 700)
+ 		$('body,html').animate({scrollTop:vitricuaskills - 40}, 700)
  	});
 
  	vitricuacontact = $('#khoi_contact').offset().top;
  	$(".cont").click(function(){
- 		$('body,html').animate({scrollTop:vitricuacontact}, 700)
+ 		$('body,html').animate({scrollTop:vitricuacontact -40}, 700)
  	});
 
   	vitricuacmt = $('#khoi_cmt').offset().top;
