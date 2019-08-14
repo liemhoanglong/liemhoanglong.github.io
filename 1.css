@@ -1,7 +1,12 @@
 *{margin: 0; padding: 0;}
 
+ul.nav.navbar-nav.float-xs-right {
+    background: #e3eaea;
+    text-align: center;
+}
+
 span.mo_ta_qt {
-    font-size: 15px;
+    font-size: 16px;
     display: block;
     margin-bottom: 20px;
 }
@@ -19,10 +24,11 @@ span.in_dam {
     font-family: segoe iu;
     text-transform: none;
     color: #373a3cc7;
+    font-size: 19px;
 }
 
 h2.tieudecap2 {
-    font-weight: bold;
+    font-weight: bolder;
     font-family: segoe ui light;
     font-size: 28px;
     margin-bottom: 30px;
@@ -147,9 +153,9 @@ a.navbar-brand {
 	ul.nav.navbar-nav.float-xs-right {
 		text-align: center;
 		background: #e3eaea;
-		width: 100%;
+		width: 101%;
 		margin: 0;
-		padding: 5px 7px;
+		padding: 8px 0px;
 	}
 
 	li.nav-item {
