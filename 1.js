@@ -5,11 +5,11 @@
  	});
 
  	vitricuaskills = $('#khoi_skills').offset().top;
- 	$(".xuong,.skills").click(function(){
+ 	$(".skills").click(function(){
  		$('body,html').animate({scrollTop:vitricuaskills}, 700)
  	});
  	vitricuacmt = $('#khoi_cmt').offset().top;
- 	$(".xuong,.cmt").click(function(){
+ 	$(".cmt").click(function(){
  		$('body,html').animate({scrollTop:vitricuacmt}, 700)
  	});
 
