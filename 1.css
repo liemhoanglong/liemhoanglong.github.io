@@ -1,5 +1,11 @@
 *{margin: 0;padding: 0;}
 
+.contact p {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
 .column {
     margin: 29px;
     margin-left: 34px;

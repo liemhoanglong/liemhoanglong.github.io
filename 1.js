@@ -8,10 +8,15 @@
  	$(".skills").click(function(){
  		$('body,html').animate({scrollTop:vitricuaskills}, 700)
  	});
- 	vitricuacmt = $('#khoi_cmt').offset().top;
+
+ 	vitricuacontact = $('#khoi_contact').offset().top;
+ 	$(".cont").click(function(){
+ 		$('body,html').animate({scrollTop:vitricuacontact}, 700)
+ 	});
+
+  	vitricuacmt = $('#khoi_cmt').offset().top;
  	$(".cmt").click(function(){
  		$('body,html').animate({scrollTop:vitricuacmt}, 700)
  	});
-
 })  
  
