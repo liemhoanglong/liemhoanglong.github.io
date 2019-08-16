@@ -11,7 +11,7 @@
 
  	vitricuacontact = $('#khoi_contact').offset().top;
  	$(".cont").click(function(){
- 		$('body,html').animate({scrollTop:vitricuacontact -40}, 700)
+ 		$('body,html').animate({scrollTop:vitricuacontact +220}, 700)
  	});
 
   	vitricuacmt = $('#khoi_cmt').offset().top;
